@@ -14,7 +14,6 @@ const Carousel = () => {
     setSlide((prev) => (prev === 0 ? length - 1 : prev - 1));
   };
 
-  console.log(sliderData)
   return (
     <div className="max-w-[1240px] mx-auto px-4 py-16 relative flex justify-center items-center">
       <BsArrowLeftSquareFill
